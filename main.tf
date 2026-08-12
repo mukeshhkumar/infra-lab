@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "mkrg1" {
-  name     = "prod-rg"
+  name     = "test-rg"
   location = "centralindia"
   tags = {
     environment = "lab"
